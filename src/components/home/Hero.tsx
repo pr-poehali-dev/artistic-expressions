@@ -14,9 +14,6 @@ const Hero = () => {
             стремлюсь передать красоту окружающего мира и моменты счастья.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button asChild size="lg" className="bg-art-primary hover:bg-art-primary/90">
-              <Link to="/gallery">Смотреть работы</Link>
-            </Button>
             <Button asChild size="lg" className="bg-art-accent hover:bg-art-accent/90 text-black">
               <Link to="/gallery">Купить картину</Link>
             </Button>

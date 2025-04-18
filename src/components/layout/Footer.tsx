@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container py-8 md:py-12">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div>
-            <div className="text-xl font-semibold text-art-primary mb-4">АртГалерея</div>
+            <div className="text-xl font-semibold text-art-primary mb-4">Влада Охапкина</div>
             <p className="text-muted-foreground max-w-xs">
               Делюсь с вами красотой окружающего мира через свои работы, создаю моменты счастья и истории, которые трогают душу.
             </p>
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-8 border-t pt-6 text-center text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} АртГалерея. Все права защищены.
+          &copy; {new Date().getFullYear()} Влада Охапкина. Все права защищены.
         </div>
       </div>
     </footer>

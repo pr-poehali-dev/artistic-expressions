@@ -17,6 +17,9 @@ const Hero = () => {
             <Button asChild size="lg" className="bg-art-primary hover:bg-art-primary/90">
               <Link to="/gallery">Смотреть работы</Link>
             </Button>
+            <Button asChild size="lg" className="bg-art-accent hover:bg-art-accent/90 text-black">
+              <Link to="/gallery">Купить картину</Link>
+            </Button>
             <Button asChild variant="outline" size="lg">
               <Link to="/contact">Связаться со мной</Link>
             </Button>
